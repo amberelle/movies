@@ -1,0 +1,15 @@
+#result{
+	display: none;
+}
+li{
+	font-size: 2em;
+}
+#reset{
+	display: none;
+}
+.row{
+	display: none;
+}
+h1{
+	text-align: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movies</title>
+  </head>
+  <body>
+  <div class="jumbotron">
+    <h1>Movies</h1>
+  </div>
+    <div class="container">
+      
+      <form id="movie-form" class="form">
+      <div class="form-group">
+        <input id="name" class="form-control" placeholder="Name" type="text">
+      </div>
+      <div class="form-group">
+      <select class="form-control" id="movies">
+        <option value="1">Zootopia</option>
+        <option value="1">Batman vs Superman</option>
+        <option value="1">Allegiant</option>
+        <option value="2">Revenant</option>
+        <option value="2">Star Wars Episode VII</option>
+        <option value="2">Deadpool</option>
+      </select>
+      </div>
+      
+        <div class="form-group">
+          <input id="age" class="form-control" placeholder="Age" type="text">
+        </div>
+       <div class="form-group">
+      <select class="form-control" id="time">
+        <option value="1">Morning</option>
+        <option value="2">Afternoon</option>
+        <option value="3">Night</option>
+      </select>
+      </div>
+        <button type="submit" class="btn btn-lg btn-success" id="submit">Get movie Price</button>
+      </form>
+
+      <div class="row">
+          <div class="col-md-6"> 
+            <ol id="names"></ol>
+          </div>
+          <div class="col-md-6">
+            <ul id="prices"></ul>
+
+          </div>
+          <button class="btn btn-lg btn-danger" id="reset">Reset</button>
+      </div>
+       
+    </div>
+  </body>
+</html>
